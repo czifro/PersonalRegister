@@ -22,7 +22,7 @@ public class ReadWriteFile {
 	DetectOS DOS;
 	LoadUserSettings lus;
 	Scanner input;
-	Main frame;
+	MainFrame frame;
 	private String filePath = "";
 	private String startDir = "";
 	private ArrayList<String> Dates = new ArrayList<String>();
@@ -53,7 +53,7 @@ public class ReadWriteFile {
 	}
 
 	// Constructor, takes var of DetectOS type as argument
-	public ReadWriteFile(DetectOS DOS, LoadUserSettings lus, Main frame) {
+	public ReadWriteFile(DetectOS DOS, LoadUserSettings lus, MainFrame frame) {
 		this.DOS = DOS;
 		this.lus = lus;
 		this.frame = frame;

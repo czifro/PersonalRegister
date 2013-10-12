@@ -71,6 +71,9 @@ public class SettingsScreen extends JFrame {
 			color = Color.WHITE;
 		}
 	}
+	public void runWindow(){
+		setVisible(true);
+	}
 
 	/**
 	 * Launch the application.
@@ -78,7 +81,7 @@ public class SettingsScreen extends JFrame {
 	 * Create the frame.
 	 */
 	public SettingsScreen(final TableColor tc, final JTable mTable,
-			final Main frame) {
+			final MainFrame frame) {
 		setTitle("Table Color");
 		setResizable(false);
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
