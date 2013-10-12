@@ -1,0 +1,67 @@
+Personal Register v0.3.1 Beta III
+
+Changes made:
+	Fixed Bugs:
+		program would error if user entered a letter
+			or special character in "Amount" field
+		program now checks entered text before accepting it
+	Improved GUI:
+		add RGB color sliders to Table Color window
+			user can create custom color
+		changed "Look & Feel"
+			using UIManager to set look to "Nimbus"
+	Improved File I/O:
+		added version control to file i/o
+			file format version is first line written to file
+				i.e. "file version x.x"
+			current version is 3.0
+				program will not error if settings.txt is in a different format
+	
+
+What to expect in Beta IV:
+
+1. Fix any bugs
+2. Improvements in code
+3. add user login window
+	    passwords will be encrypted
+4. add spending trends feature
+5. More functionality
+
+
+
+History:
+
+v0.1.0 Beta I release
+	first build
+
+v0.2.0 Beta II
+	fixed bugs
+		Linux file i/o now works
+	Code improvements
+	revamped GUI
+		changed from list display to table display
+		added menu bar
+	added ability to edit table
+	added automatic os detection
+	added settings file
+		saves the location of file so that start up speed is faster
+
+v0.2.1 Beta II
+	fixed issue with opening new files with app still running
+	fixed table editing
+		selection of empty deposit or withdraw cell will swap, or enter new number
+		depends on user's choice
+
+v0.3.0 Beta III
+	Improved flow of code
+		for details read "detailed change log.txt"
+	Improved GUI
+		Date input method changed
+		now user can choose to use current date, or use combo boxes to select day and month
+	Added "Properties" window
+		User has four options for row colors
+		a preview table allows user to see what each color looks like before saving changes
+	Fixed table editing
+		swapping from deposit to withdraw and vice versa will now properly reflect in table
+		and when saved, closed, and re-opened, changes now remain
+	File I/O operates more smoothly
