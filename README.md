@@ -4,11 +4,12 @@ This is my first long-term project. This is to be used as a banking tool to keep
 
 ***CREDITS***
 
-Author: Czifro Open Source Java
+Author: Czifro Open Source Projects
 
-Program Design Team: Will Czifro
-					 Andrew Wheeler
-					 Chris Martin
+Program Design Team:
+			Will Czifro
+			Andrew Wheeler
+			Chris Martin
 
 Program Developer: Will Czifro
 
