@@ -54,10 +54,10 @@ v0.2.1 Beta II
 
 v0.3.0 Beta III
 	Improved flow of code
-		for details read "detailed change log.txt"
+		Refacted code
 	Improved GUI
 		Date input method changed
-		now user can choose to use current date, or use combo boxes to select day and month
+		now user can choose to use current date, or select a date
 	Added "Properties" window
 		User has four options for row colors
 		a preview table allows user to see what each color looks like before saving changes
