@@ -4,7 +4,7 @@ This is my first long-term project. This is to be used as a banking tool to keep
 
 ***CREDITS***
 
-Author: Czifro Open Source Projects
+Author: Will Czifro
 
 Program Design Team:
 			Will Czifro,
